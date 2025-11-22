@@ -1,14 +1,17 @@
 # Gen AI Web
 Overview: This is a informative website about Generative AI that explains its FAQs and ethical use of AI
-INSTRUCTIONS:
+
+## INSTRUCTIONS:
 1.) Open with browser
 2.) Utilize the navigation bar by clicking the Home/FAQs or Ethical Use, it should take you to other pages.
 3.) When in the Home page, users can interact with the learn more box by clicking it, it should output about the website.
 4.) When in the FAQs page, users can interact with the box with a text by clicking it, it should show the context.
 5.) When in the Ethical use page, users can interact with the url link by cicking it it should take the users to other tab for the reference. Users can also interact with the explore the analogy box and it should output about the analogy.
-FRAMEWORKS/LIBRARIES:
+
+## FRAMEWORKS/LIBRARIES:
 1. Bootstrap
-SCREENSHOTS:
+
+## SCREENSHOTS:
 <img width="1919" height="942" alt="image" src="https://github.com/user-attachments/assets/a21013d2-86d5-47be-8a26-29f4ac098932" />
 <img width="941" height="944" alt="image" src="https://github.com/user-attachments/assets/2821d45b-1a5d-4012-b7bf-20bbd1a88423" />
 <img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/a311ccb1-49e4-4ac1-bbc7-15003ea730bd" />
