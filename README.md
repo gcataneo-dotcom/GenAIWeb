@@ -1,4 +1,4 @@
-Project Title: Gen AI Web
+# Gen AI Web
 Overview: This is a informative website about Generative AI that explains its FAQs and ethical use of AI
 INSTRUCTIONS:
 1.) Open with browser
