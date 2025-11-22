@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GenAI - FAQs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body id="faq-body">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><i class="bi bi-robot"></i> GenAI Hub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door"></i> Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="faq.html"><i class="bi bi-question-circle"></i> FAQs</a></li>
+        <li class="nav-item"><a class="nav-link" href="ethics.html"><i class="bi bi-shield-lock"></i> Ethical Use</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main -->
+<main class="container py-5">
+
+  <h1 class="mb-4 text-center fade-in">Frequently Asked Questions About Generative AI</h1>
+
+  <div class="accordion accordion-flush fade-in" id="faqAccordion">
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="q1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">
+          <i class="bi bi-lightbulb me-2"></i> What is Generative AI?
+        </button>
+      </h2>
+      <div id="a1" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Generative AI, sometimes called gen AI, is artificial intelligence (AI) that can create original content such as text, images, video, audio or software code in response to a user’s prompt or request.
+          Generative AI relies on sophisticated machine learning models called deep learning models algorithms that simulate the learning and decision-making processes of the human brain. These models work by 
+          identifying and encoding the patterns and relationships in huge amounts of data, and then using that information to understand users' natural language requests or questions and respond with relevant new content.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="q2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
+          <i class="bi bi-gear me-2"></i> How does it work?
+        </button>
+      </h2>
+      <div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          It uses large datasets and deep learning models to generate outputs based on input prompts.
+          For the most part, generative AI operates in three phases: 
+        </div>
+        <div class="accordion-body">
+          <ul id="ul2">
+            <li><strong>Training,</strong> to create a foundation model that can serve as the basis of multiple gen AI applications.</li>
+            <li><strong>Tuning,</strong> to tailor the foundation model to a specific gen AI application.</li>
+            <li><strong>Generation, evaluation and retuning,</strong> to assess the gen AI application's output and continually improve its quality and accuracy.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="q3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
+          <i class="bi bi-tools me-2"></i> What are examples of GenAI tools?
+        </button>
+      </h2>
+      <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Popular tools include ChatGPT, DALL-E, Midjourney, GPT-4, Gemini, SoraAI, and more.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="q4">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="a4">
+          <i class="bi bi-star me-2"></i> What can GenAI do (strengths)?
+        </button>
+      </h2>
+      <div id="a4" class="accordion-collapse collapse" aria-labelledby="q4" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <strong>Financial services</strong>
+          <div>
+            Financial services companies use generative AI tools to serve their customers better while reducing costs:
+          </div>
+          <ul class="accordion-body" id="ul2">
+            <li>Financial institutions use chatbots to generate product recommendations and respond to customer inquiries, which improves overall customer service</li>
+            <li>Lending institutions speed up loan approvals for financially underserved markets, especially in developing nations</li>
+            <li>Banks quickly detect fraud in claims, credit cards, and loans</li>
+            <li>Investment firms use the power of generative AI to provide safe, personalized financial advice to their clients at a low cost</li>
+          </ul>
+        </div>
+        <div class="accordion-body">
+          <strong>Healthcare and life sciences</strong>
+          <div class="accordion-body">
+            One of the most promising generative AI use cases is accelerating drug discovery and research. Generative AI can create novel protein sequences with specific properties for designing antibodies, enzymes, vaccines, and gene therapy.
+          </div>
+          <div class="accordion-body">
+            Healthcare and life sciences companies use generative AI tools to design synthetic gene sequences for synthetic biology and metabolic engineering applications. For example, they can create new biosynthetic pathways or optimize gene expression for biomanufacturing purposes.
+          </div>
+          <div class="accordion-body">
+            Generative AI tools also create synthetic patient and healthcare data. This data can be useful for training AI models, simulating clinical trials, or studying rare diseases without access to large real-world datasets.
+          </div>
+        </div>
+        <div class="accordion-body">
+          <strong>Automotive and manufacturing</strong>
+          <div class="accordion-body">
+            Automotive companies use generative AI technology for many purposes, from engineering to in-vehicle experiences and customer service. For instance, they optimize the design of mechanical parts to reduce drag in vehicle designs or adapt the design of personal assistants.
+          </div>
+          <div class="accordion-body">
+            Auto companies use generative AI tools to deliver better customer service by providing quick responses to the most common customer questions. Generative AI creates new materials, chips, and part designs to optimize manufacturing processes and reduce costs.
+          </div>
+          <div class="accordion-body">
+            Another generative AI use case is synthesizing data to test applications. This is especially helpful for data not often included in testing datasets (such as defects or edge cases).
+          </div>
+        </div>
+        <div class="accordion-body">
+          <strong>Media and entertainment</strong>
+          <div class="accordion-body">
+            From animations and scripts to full-length movies, generative AI models produce novel content at a fraction of the cost and time of traditional production. Other generative AI use cases in the industry include:
+            <ul class="accordion-body" id="ul2">
+              <li>Artists can complement and enhance their albums with AI-generated music to create whole new experiences</li>
+              <li>Media organizations use generative AI to improve their audience experiences by offering personalized content and ads to grow revenues.</li>
+              <li>Gaming companies use generative AI to create new games and allow players to build avatars.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="q5">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5" aria-expanded="false" aria-controls="a5">
+          <i class="bi bi-exclamation-triangle me-2"></i> What are its limitations or risks?
+        </button>
+      </h2>
+      <div id="a5" class="accordion-collapse collapse" aria-labelledby="q5" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Despite their advancements, generative AI systems can sometimes produce inaccurate or misleading information. They rely on patterns and data they were trained on and can reflect biases or inaccuracies inherent in that data. Other concerns related to training data include
+        </div>
+        <div class="accordion-body">
+          <strong>Security</strong>
+          <div class="accordion-body">
+            Data privacy and security concerns arise if proprietary data is used to customize generative AI models. Efforts must be made to ensure that the generative AI tools generate responses that limit unauthorized access to proprietary data. Security concerns also arise if there is a lack of accountability and transparency in how AI models make decisions.
+          </div>
+        </div>
+        <div class="accordion-body">
+          <strong>Creativity</strong>
+          <div class="accordion-body">
+            While generative AI can produce creative content, it often lacks true originality. The creativity of AI is bounded by the data it has been trained on, leading to outputs that may feel repetitive or derivative. Human creativity, which involves a deeper understanding and emotional resonance, remains challenging for AI to replicate fully.
+          </div>
+        </div>
+        <div class="accordion-body">
+          <strong>Cost</strong>
+          <div class="accordion-body">
+            Training and running generative AI models require substantial computational resources. Cloud-based generative AI models are more accessible and affordable than trying to build new models from scratch.
+          </div>
+        </div>
+        <div class="accordion-body">
+          <strong>Explainability</strong>
+          <div class="accordion-body">
+            Due to their complex and opaque nature, generative AI models are often considered black boxes. Understanding how these models arrive at specific outputs is challenging. Improving interpretability and transparency is essential to increase trust and adoption.
+          </div>
+        </div> 
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

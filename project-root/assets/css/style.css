@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #4d4d4d;
+}
+
+#index-body {
+  background-image: url('image1.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#faq-body {
+  background-image: url('image1.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#ethics-body {
+  background-color: rgb(77, 77, 77);
+}
+
+#amt {
+  color: #000000;
+}
+
+.mtxt1 {
+  color: black;
+}
+
+.display-4 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing:none;
+  font-weight: 700;
+  font-style:normal;
+  color: #fff;
+}
+
+.tdisp1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing:none;
+  font-weight: 600;
+  font-style:normal;
+  font-size: 140px;
+  color: #ffffff;
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: #fff;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  color: #fff;
+}
+
+#ul2 {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  color: #000000;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.navbar-brand i, .nav-link i {
+  margin-right: 0.35rem;
+}
+
+.btn i {
+  margin-right: 0.4rem;
+}
+
+#bmbg {
+  background-color: #3295ce;
+}
